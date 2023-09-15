@@ -1,6 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        exempleAB();
+       // exempleAB();
+        exempleCD();
+    }
+
+    private static void exempleCD() {
+        D d1 = new D(13, "black");
+        D d2 = new D("white");
     }
 
     private static void exempleAB() {
